@@ -1,0 +1,41 @@
+.mmain{
+    background-image: url(../imagenes/manda.jpg);
+    background-repeat: repeat;
+    @include font(35px, 500, normal, 0 50px);
+        h1{
+            @include font( 70px, 0, normal, 30px 50px);
+        }
+            h2{
+                @include font(60px, 0, normal, 10px 40px);
+            }
+                h3{
+                    @include font(50px, 0, center, 10px);
+                }
+                    h4{
+                        @include font(40px, 0, center, 10px);
+                        font-style: oblique;
+                    }
+                        h5{
+                            @include font(37px, 500, center, 10px);
+                        }
+                            h6{
+                                @include font(35px, 600, center, 10px);
+                            }
+    }
+.precio{
+    border-radius: 12 px;
+    border-style: dashed;
+    border-color: burlywood;
+    border-width: 7px;
+    margin: 20px;
+    text-align: center;
+}
+.precio ul{
+    list-style: none;
+}
+.ultimo{
+    @include footer(flex, space-between, 20px);
+}
+.ultimo{
+    @include refe
+}

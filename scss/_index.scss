@@ -1,0 +1,48 @@
+
+.fondoimagen{
+    background-image: url(../imagenes/manda4.jpg);
+    background-repeat: repeat;
+}
+
+.fondoimagen{
+    @include refe;
+}
+
+.tittle{
+    h1{
+        @include font(80px, 600, center, 90px 0 10px 0);
+        color: rgb(194, 194, 224);
+        }
+        h2{
+            @include font(70px, 600, center, 5px);
+            color: rgb(194, 194, 224);
+        }
+            h3{
+                @include font(55px, 600, center, 5px);
+                color: rgb(194, 194, 224);
+            }
+                h4{
+                    @include font(50px, 600, center, 5px 0 80px 0);
+                    color: rgb(194, 194, 224);
+                }
+}
+
+.derecha{
+    color: rgba(119, 66, 119, 0.788);
+    @include font(40px, 600, right,0 20px);
+    justify-content: end;
+    
+        h2{
+            @include font(60px, 600, normal, 40px 0px 20px 30px);
+        }
+        ul li{
+            list-style-position: inside;
+            list-style-type: georgian;
+            }
+}
+.ultimo{
+    @include footer(flex, space-between, 20px);
+}
+.ultimo{
+    @include refe
+}

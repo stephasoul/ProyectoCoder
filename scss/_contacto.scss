@@ -1,0 +1,15 @@
+$redes: (
+    Twitter:   #55acee,
+    Facebook:  #3a5795,
+    Whatsapp:  #00bb2d
+);
+
+@each $red, $color in $redes{
+    .boton--#{$red}{
+        background-color:$color ;
+    }
+}
+.bory{
+    background-image: url(../imagenes/manda14.jpg);
+    background-repeat: repeat;
+}

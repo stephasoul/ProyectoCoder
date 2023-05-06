@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin font($size, $weight, $align, $padding){
+    font-size: $size;
+    font-weight: $weight;
+    text-align: $align;
+    padding: $padding;
+    font-family: 'Wire One', sans-serif;
+}
+
+@mixin footer($display, $justified, $padding){
+    display: $display;
+    justify-content: $justified;
+    padding: $padding;
+    background-color: linen;
+}
+@mixin refe{
+    a{
+        text-decoration: none;
+        color: rgba(119, 66, 119, 0.788);
+        font-weight: 700;
+        }
+}

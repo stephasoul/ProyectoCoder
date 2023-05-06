@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondoimagen {
+  background-image: url(../imagenes/manda4.jpg);
+  background-repeat: repeat;
+}
+
+.fondoimagen a {
+  text-decoration: none;
+  color: rgba(119, 66, 119, 0.788);
+  font-weight: 700;
+}
+
+.tittle h1 {
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+  padding: 90px 0 10px 0;
+  font-family: "Wire One", sans-serif;
+  color: rgb(194, 194, 224);
+}
+.tittle h2 {
+  font-size: 70px;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px;
+  font-family: "Wire One", sans-serif;
+  color: rgb(194, 194, 224);
+}
+.tittle h3 {
+  font-size: 55px;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px;
+  font-family: "Wire One", sans-serif;
+  color: rgb(194, 194, 224);
+}
+.tittle h4 {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px 0 80px 0;
+  font-family: "Wire One", sans-serif;
+  color: rgb(194, 194, 224);
+}
+
+.derecha {
+  color: rgba(119, 66, 119, 0.788);
+  font-size: 40px;
+  font-weight: 600;
+  text-align: right;
+  padding: 0 20px;
+  font-family: "Wire One", sans-serif;
+  justify-content: end;
+}
+.derecha h2 {
+  font-size: 60px;
+  font-weight: 600;
+  text-align: normal;
+  padding: 40px 0px 20px 30px;
+  font-family: "Wire One", sans-serif;
+}
+.derecha ul li {
+  list-style-position: inside;
+  list-style-type: georgian;
+}
+
+.ultimo {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: linen;
+}
+
+.ultimo a {
+  text-decoration: none;
+  color: rgba(119, 66, 119, 0.788);
+  font-weight: 700;
+}
+
+.mmain {
+  background-image: url(../imagenes/manda.jpg);
+  background-repeat: repeat;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: normal;
+  padding: 0 50px;
+  font-family: "Wire One", sans-serif;
+}
+.mmain h1 {
+  font-size: 70px;
+  font-weight: 0;
+  text-align: normal;
+  padding: 30px 50px;
+  font-family: "Wire One", sans-serif;
+}
+.mmain h2 {
+  font-size: 60px;
+  font-weight: 0;
+  text-align: normal;
+  padding: 10px 40px;
+  font-family: "Wire One", sans-serif;
+}
+.mmain h3 {
+  font-size: 50px;
+  font-weight: 0;
+  text-align: center;
+  padding: 10px;
+  font-family: "Wire One", sans-serif;
+}
+.mmain h4 {
+  font-size: 40px;
+  font-weight: 0;
+  text-align: center;
+  padding: 10px;
+  font-family: "Wire One", sans-serif;
+  font-style: oblique;
+}
+.mmain h5 {
+  font-size: 37px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+  font-family: "Wire One", sans-serif;
+}
+.mmain h6 {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  font-family: "Wire One", sans-serif;
+}
+
+.precio {
+  border-radius: 12 px;
+  border-style: dashed;
+  border-color: burlywood;
+  border-width: 7px;
+  margin: 20px;
+  text-align: center;
+}
+
+.precio ul {
+  list-style: none;
+}
+
+.ultimo {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: linen;
+}
+
+.ultimo a {
+  text-decoration: none;
+  color: rgba(119, 66, 119, 0.788);
+  font-weight: 700;
+}
+
+.formation {
+  background-image: url(../imagenes/manda3.jpg);
+  background-repeat: repeat;
+}
+
+.pfor {
+  font-size: 500px;
+}
+
+.boton--Twitter {
+  background-color: #55acee;
+}
+
+.boton--Facebook {
+  background-color: #3a5795;
+}
+
+.boton--Whatsapp {
+  background-color: #00bb2d;
+}
+
+.bory {
+  background-image: url(../imagenes/manda14.jpg);
+  background-repeat: repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .fondoimagen {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 30px;
+    font-family: "Wire One", sans-serif;
+  }
+  .fondoimagen h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: normal;
+    padding: 40px 10px 5px 10px;
+    font-family: "Wire One", sans-serif;
+  }
+  .fondoimagen h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: normal;
+    padding: 0px;
+    font-family: "Wire One", sans-serif;
+  }
+  .fondoimagen h3 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: normal;
+    padding: 0 10px 0 10px;
+    font-family: "Wire One", sans-serif;
+  }
+  .fondoimagen h4 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: normal;
+    padding: 0 10px 0 10px;
+    font-family: "Wire One", sans-serif;
+  }
+  .derecha {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 0;
+    font-family: "Wire One", sans-serif;
+  }
+  .dertit {
+    margin: 20px 0 20px 35px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .fondoimagen {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 30px;
+    font-family: "Wire One", sans-serif;
+  }
+  .fondoimagen h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: normal;
+    padding: 40px 10px 5px 10px;
+    font-family: "Wire One", sans-serif;
+  }
+  .fondoimagen h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: normal;
+    padding: 0px;
+    font-family: "Wire One", sans-serif;
+  }
+  .fondoimagen h3 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: normal;
+    padding: 0 10px 0 10px;
+    font-family: "Wire One", sans-serif;
+  }
+  .fondoimagen h4 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: normal;
+    padding: 0 10px 0 10px;
+    font-family: "Wire One", sans-serif;
+  }
+  .derecha {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 0;
+    font-family: "Wire One", sans-serif;
+  }
+  .dertit {
+    margin: 0 0 20px 35px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mmain {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-family: "Wire One", sans-serif;
+  }
+  .mmain h1 {
+    font-size: 60px;
+    font-weight: 0;
+    text-align: center;
+    padding: 40px 10px 0 10px;
+    font-family: "Wire One", sans-serif;
+  }
+  .mmain h2 {
+    font-size: 50px;
+    font-weight: 0;
+    text-align: center;
+    padding: 0;
+    font-family: "Wire One", sans-serif;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mmain {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: normal;
+    padding: 0 40px;
+    font-family: "Wire One", sans-serif;
+  }
+  .mmain h6 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: normal;
+    padding: 0;
+    font-family: "Wire One", sans-serif;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
