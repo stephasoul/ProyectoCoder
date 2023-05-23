@@ -1,0 +1,48 @@
+.Turnos{
+    background-image: url(../imagenes/manda.jpg);
+    background-repeat: repeat;
+}
+.encabezado3{
+    
+    h1{
+        @include font( 90px, 550, normal, 30px 50px);
+    }
+        h2{
+            @include font(80px, 550, center, 10px 0);
+            }
+}
+.tima{
+    background-image: url(../imagenes/tivin.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+
+}
+.pt{
+    background-image: url(../imagenes/fondo.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    border-style: dashed;
+    border-color: rgba(194, 194, 224, 0.897);
+    border-width: 15px;
+    margin: 30px 250px;
+    @include font(50px, 0, center, 20px 20px 150px 20px)
+}
+
+.formulario{
+
+    margin: 20px 0;
+    @include font(40px, 300, left, 10px 20px);
+}
+.in{
+    border-style: dashed;
+    border-color: rgb(194, 194, 224) ;
+    padding: 10px 5px;
+    margin: 5px;
+    border-width: 3px;
+    text-align: center;
+    justify-content:space-around;
+    outline: none;
+    background-color:ghostwhite;
+    display: block;
+}

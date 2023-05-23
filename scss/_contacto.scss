@@ -1,15 +1,42 @@
-$redes: (
-    Twitter:   #55acee,
-    Facebook:  #3a5795,
-    Whatsapp:  #00bb2d
-);
 
-@each $red, $color in $redes{
-    .boton--#{$red}{
-        background-color:$color ;
+.contact{
+    background-image: url(../imagenes/manda.jpg);
+    background-repeat: repeat;
+}
+.encabezadoc{
+    h1{
+        @include font( 90px, 550, normal, 30px 70px);
+    }
+        h2{
+            @include font(80px, 550, normal, 10px 100px);
+            }     
+}
+.civin{
+    background-image: url(../imagenes/civin.png);
+    background-size: 42%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+
+}
+.redes{
+    @include font(60px,0, left, 0);
+    a{
+        text-decoration: none;
+        color:cornflowerblue;
+        font-weight: 700;
+        border: 1px;
+        border-style: dashed;
+        border-color: rgba(100, 148, 237, 0.493);
+        padding: 5px;
+        border-width: 5px;
+        background-color:rgba(255, 255, 240, 0.555);
     }
 }
-.bory{
-    background-image: url(../imagenes/manda14.jpg);
-    background-repeat: repeat;
+.ubi{
+    @include font(60px, 0, center, 0);
+    margin:0px 200px;
+}
+.end{
+    @include font(70px,0, right, 20px 150px 20px 0);
 }

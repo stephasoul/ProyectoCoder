@@ -1,0 +1,19 @@
+        border-radius: 100px;
+        border-style: dashed;
+        border-color: rgb(194, 194, 224);
+        border-width: 8px;
+        margin: 70px 15px 50px 15px;
+        list-style-position:outside;
+        color: rgba(119, 66, 119, 0.788);
+
+        ul{
+            border-radius: 100px;
+            border-style: dashed;
+            border-color: rgb(194, 194, 224);
+            border-width: 12px;
+            margin: 30px 5px 30px 15px;
+            padding: 15px 30px 20px 150px;
+            list-style-position:outside;
+            color: rgba(119, 66, 119, 0.788);
+            width: 1000px;
+        }  

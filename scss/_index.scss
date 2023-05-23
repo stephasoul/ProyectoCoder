@@ -1,6 +1,6 @@
 
 .fondoimagen{
-    background-image: url(../imagenes/manda4.jpg);
+    background-image: url(../imagenes/manda.jpg);
     background-repeat: repeat;
 }
 
@@ -8,41 +8,67 @@
     @include refe;
 }
 
-.tittle{
+.encabezado{
     h1{
-        @include font(80px, 600, center, 90px 0 10px 0);
-        color: rgb(194, 194, 224);
-        }
+        @include font( 100px, 0, normal, 40px 0 5px 100px);
+    }
         h2{
-            @include font(70px, 600, center, 5px);
-            color: rgb(194, 194, 224);
+            @include font(90px, 0, center,5px 0 0 0);
         }
+}
+.pen{
+    @include font(70px,0, center, 0);
+    font-style: oblique;
+}
+
+.tittle{
+        background-image: url(../imagenes/logo4.png);
+        background-size:98% 98%;
+        background-repeat: no-repeat;
+        padding: 100px 10px 100px 10px;
+        margin: 20px 100px;
             h3{
-                @include font(55px, 600, center, 5px);
-                color: rgb(194, 194, 224);
+                @include font(70px, 0, center, 0);
+                color: rgb(147, 147, 202);
+                text-shadow: 4px 4px 5px rgba(248, 248, 255, 0.877);
+                
             }
                 h4{
-                    @include font(50px, 600, center, 5px 0 80px 0);
-                    color: rgb(194, 194, 224);
+                    @include font(60px, 0, center, 0);
+                    color: rgb(134, 134, 194);
+                    text-shadow: 4px 4px 5px rgba(248, 248, 255, 0.89);
                 }
 }
 
 .derecha{
-    color: rgba(119, 66, 119, 0.788);
-    @include font(40px, 600, right,0 20px);
-    justify-content: end;
-    
-        h2{
-            @include font(60px, 600, normal, 40px 0px 20px 30px);
-        }
-        ul li{
-            list-style-position: inside;
-            list-style-type: georgian;
-            }
+        ul{
+            @include font(45px, 0, left, 25px 70px 25px 50px);
+            border-radius: 50px;
+            border-style: dashed;
+            border-color: rgba(194, 194, 224, 0.678);
+            border-width: 18px;
+            margin: 0 30px 30px 30px;
+            list-style-position:outside;
+            list-style-type:circle;
+        }   
 }
+.derecha2{
+    background-image: url(../imagenes/divin.png);
+    background-repeat:no-repeat;
+    background-size: 58%;
+    background-position: center;
+
+}
+
+.dertit{
+    @include font(70px, 0, normal,0 40px);
+}
+
 .ultimo{
+    ul li{
     @include footer(flex, space-between, 20px);
 }
 .ultimo{
     @include refe
+}
 }

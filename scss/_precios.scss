@@ -1,0 +1,35 @@
+
+.formation{
+    background-image: url(../imagenes/manda.jpg);
+    background-repeat: repeat;
+}
+.encabezadof{
+    h1{
+        @include font( 90px, 550, normal, 30px 70px);
+    }
+        h2{
+            @include font(80px, 550, center, 10px 0);
+            }     
+}
+.pricin{
+    @include font(50px,0, center, 20px 0);
+    ul li{
+        list-style-type: none;
+        list-style-position:outside;
+    }
+}
+.plist{
+    border-radius: 12 px;
+    border-style: dashed;
+    border-color: rgba(194, 194, 224, 0.678);
+    border-width: 15px;
+    margin:25px 300px;
+    padding:0 8px;
+    text-align: center;
+}
+.carro{
+    border-width: 15px;
+    border-style: solid;
+    border-color: rgba(194, 194, 224, 0.678);
+    margin: 30px 240px;
+}

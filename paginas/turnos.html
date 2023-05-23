@@ -1,90 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turnos</title>
-    <link rel="shortcut icon" href="../imagenes/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/estilos.css">
-</head>
-<body>
-    <header id="arriba"> 
-        <nav> 
-            <ul class="menu">
-                <li> <a href="../index.html">Masajes Lux</a>
-                </li>
-            
-                <li> <a href="masajes.html">Estilos de masajes</a>
-                </li>
-
-                <li> <a href="formacion.html">Formación</a>
-                </li>
-                
-                <li> <a href="turnos.html">Turnos</a>
-                </li>
-                <li> <a href="contacto.html">Contacto</a>
-                </li>
-
-            </ul>
-        </nav>
-    </header>
-    <h1>Turnos</h1>
-    <main> 
-        <p>Hola! 
-            Estoy trabajando de Lunes a Viernes
-            en el horario de 08:30 a 12:00 am - 15:30- 19:00
-            Reserva tu turno a continuación Gracias por elegirme ♥ Stephanie
-
-        </p>
-        <form action="">
-            <div>
-                <label for="nombre">Nombre</label>
-            <input type="text" name="nombre">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estilos de masajes</title>
+        <link rel="shortcut icon" href="../imagenes/favicon.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Wire+One&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <header id="arriba">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <nav class="navbar bg-body-tertiary">    
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                            <img src="../imagenes/logo.jpg" alt="Oreja" width="80" height="50">
+                            </a>
+                        </div>
+                    </nav>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Masajes Lux</font></font></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="masajes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    Estilos de masajes
+                                    </font></font></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="masajes.html#MR">Masajes Relajantes</a></li>
+                                    <li><a class="dropdown-item" href="masajes.html#MD">Masajes Descontracturantes</a></li>
+                                    <li><a class="dropdown-item" href="masajes.html#ML">Masajes Linfáticos</a></li>
+                                    <li><a class="dropdown-item" href="masajes.html#MF">Masajes Masajes faciales</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="masajes.html#CE">Crío Esferas</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="precios.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Precios</font></font></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="turnos.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Turnos</font></font></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contacto</font></font></a>
+                            </li>
+                        </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buscar</font></font></button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+        </header>
+    <main class="Turnos">
+        <div class="encabezado3">
+            <h1>Salud & Belleza</h1>
+            <h2>Turnos</h2>
+            <section class="pt col-xl-8">
+            <p>Hola! Estoy trabajando de Lunes a Viernes en el horario</p> 
+            <p> 08:30 a 12:00 am - 15:30 a 19:00pm</p>
+            <p>Reserva tu turno a continuación</p>
+            <p> Gracias por elegirme ♥</p>
+            <p>Stephanie</p>
+            </section>
+        </div>
+        <section class="container d-flex flex-row">
+        <div class="tima col-xl-4 col-md-4"></div>
+        <div class="formulario col-xl-6 col-md-6">
+                <form action="mailto:luxm@gmail.com">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="in" id="nombre" placeholder="Nombre">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="in" id="Apellido" placeholder="Apellido">
+                        <label for="correo">Correo</label>
+                        <input type="email" class="in" id="correo" placeholder="e-mail">
+                        <label for="Telefono">Teléfono</label>
+                        <input type="tel" class="in" id="Teléfono" placeholder="Teléfono">
+                        <label for="dia"> Día</label>
+                        <section class="in"id="Día">
+                        <input type="radio" name="dia" value="L">L
+                        <input type="radio" name="dia" value="M">M
+                        <input type="radio" name="dia" value="MI">Mi
+                        <input type="radio" name="dia" value="J">J
+                        <input type="radio" name="dia" value="V">V
+                        </section>
+                        <label for="horario">Horario</label>
+                        <input type="time" class="in" id="Horario">
+                        <label for="reseva">Reserva</label>
+                        <input type="date" class="in" id="Renseva">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" class="in form-control" rows="8" id="mensaje" placeholder="Dejame tu mensajito..."></textarea>></textarea>
+                        <input type="reset" class="botones2" value="Borrar">
+                        <input type="submit" class="botones2" value="Enviar">
+                    </form>
             </div>
-            <div>
-                <label for="apellido">Apellido</label>
-            <input type="text" name="apellido">
-            </div>
-            <div>
-                <label for="correo">Correo</label>
-                <input type="email" name="correo">
-            </div>
-            <div>
-                <label for="Telefono">Teléfono</label>
-            <input type="text" name="telefono">
-            </div>
-            <div>
-                <label for="dia"> Día</label>
-                <input type="radio" name="dia" value="L">L
-                <input type="radio" name="dia" value="M">M
-                <input type="radio" name="dia" value="MI">Mi
-                <input type="radio" name="dia" value="J">J
-                <input type="radio" name="dia" value="V">V
-            </div>
-            <div>
-                <label for="horario">Horario</label>
-                <input type="time" name="horario" id="">
-            </div>
-            <div>
-                <label for="reseva">Reserva</label>
-                <input type="date" name="reserva" id="">
-            </div>
-            <div>
-                <label for="mensaje">Mensaje</label>
-                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
-            </div>
-
-        </form>
+        </section>
     </main>
     <footer>
         <section class="ultimo">
-            <a href="../index.html">Inicio</a> <a href="#arriba">Ir arriba</a>   <a href="contacto.html">Redes Sociales</a>
-            
+            <a href="#arriba">Ir arriba</a> <a href="../index.html">Inicio</a><a href="precios.html">Precios</a> <a href="contacto.html">Redes Sociales</a>  
         </section>    
     </footer>
 </body>
